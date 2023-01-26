@@ -1,0 +1,52 @@
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    height: 100,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#37474f',
+    marginLeft: '5%',
+    marginRight: '5%',
+    borderRadius: 10,
+  },
+  input: {
+    flex: 1,
+    width: '95%',
+    borderBottomWidth: 0.8,
+    borderBottomColor: 'aqua',
+    paddingHorizontal: 5,
+    margin: 2,
+    color: 'white',
+  },
+  button_container: {
+    flex: 3,
+    width: '90%',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  button_passive: {
+    flex: 1,
+    width: '100%',
+    backgroundColor: 'gray',
+    color: 'white',
+    fontSize: 15,
+    textAlign: 'center',
+    textAlignVertical: 'center',
+    marginBottom: 10,
+    marginTop: 10,
+    borderRadius: 10,
+  },
+  button_active: {
+    flex: 1,
+    width: '100%',
+    backgroundColor: '#f9a201',
+    color: 'white',
+    fontSize: 15,
+    textAlign: 'center',
+    textAlignVertical: 'center',
+    marginBottom: 10,
+    marginTop: 10,
+    borderRadius: 10,
+  },
+});
